@@ -1,6 +1,18 @@
 # Design-Patterns
 Python Design Patterns
 
+# RESUMO DO PADRAO SINGLETON
+• Há muitas aplicações do mundo real em que precisamos criar apenas um objeto. Se criarmos
+várias instâncias para cada aplicação, teremos um uso excessivo de recursos. O padrão
+Singleton funcionam muito bem nestas situações;
+• O Singleton é um método comprovado, resistente ao teste do tempo, e oferece um ponto de
+aesso global sem muitas desvantagens;
+• É claro que há algumas desvantagens já que o singleton pode exercer um impacto inesperado
+por trabalhar com variáveis globais ou por instanciarem classes que exigem muitos recursos,
+mas que acabam por não utilizá-los.
+
+
+
 ## Singleton
 Lembre-se que o Singleton tem um ponto de acesso global, e desta formas os seguintes
 problemas podem ocorrer:
