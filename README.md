@@ -1,2 +1,16 @@
 # Design-Patterns
 Python Design Patterns
+
+## Singleton
+Lembre-se que o Singleton tem um ponto de acesso global, e desta formas os seguintes
+problemas podem ocorrer:
+
+• Variáveis globais podem ser alteradas por engano em algum lugar e, como o desenvolvedor
+pode achar que elas permanecem inalteradas, as variáveis poderão acabar sendo usadas em
+outro lugar na aplicação;
+
+• Variáveis referência podem ser criadas para o mesmo objeto. Como o Singleton cria apenas um
+objeto, várias referências podem ser criadas neste ponto para o mesmo objeto;
+• Todas as classes que são dependentes de variáveis globais acabam se tornando altamente
+acopladas, pois uma mudança feita por uma classe no dado global poderá exercer um impacto
+em outra classe
